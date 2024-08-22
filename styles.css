@@ -1,13 +1,61 @@
-/* Ensure the map container takes up full height and width */
-html, body {
+/* General body styles */
+body {
   margin: 0;
-  padding: 0;
-  height: 100%;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden; /* Prevent scrolling */
 }
 
-#map {
-  position: absolute;
-  top: 0;
-  bottom: 0;
+/* Navbar styles */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  position: fixed;
   width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+}
+
+/* Flexbox container to center map */
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin-top: 60px; 
+}
+
+/* Map container styles */
+#map {
+  width: 90vw; 
+  height: 60vh; 
+  border: 2px solid #000; 
+  box-sizing: border-box; 
 }
