@@ -24,7 +24,7 @@ const foodPantryLocations = [
         address: "Access Resource Center office <br> Loew Hall 125",
         hours: "Biweekly Wednesday: 10 AM – 4:30 PM and Thursday: 11 AM – 6:30 PM<br>Daily emergency pantry: 9 AM – 5 PM<br>Daily Healthy Food Cart access 9 AM – 5 PM",
         note: "Students utilize the Plentiful App to make appointments for the bi-weekly pantry and can walk in daily for the Healthy Food Cart and emergency pantry needs.",
-        contact: "dawn.daniels@bcc.cuny.edu <br> Raine.diaz@bcc.cuny.edu"
+        contact: "<a href='mailto: dawn.daniels@bcc.cuny.edu'>dawn.daniels@bcc.cuny.edu</a> <br> <a href='mailto: Raine.diaz@bcc.cuny.edu'>Raine.diaz@bcc.cuny.edu</a>"
     },
     {
         name: "Lehman College",
@@ -33,7 +33,7 @@ const foodPantryLocations = [
         address: "Student Life Building 120",
         hours: "Wednesday: 10 AM – 8 PM<br>Thursday: 10 AM – 5 PM",
         note: "Serving Lehman students only, Walk-in service food bank with student ID to swipe in building and display to pantry coordinator",
-        contact: "food.bank@lehman.cuny.edu"
+        contact: "<a href='mailto: food.bank@lehman.cuny.edu'>food.bank@lehman.cuny.edu</a>"
     },
     {
         name: "Kingsborough Community College",
@@ -42,7 +42,7 @@ const foodPantryLocations = [
         address: "CUNY EDGE, T4-216 (Food for Thought)",
         hours: "Monday – Friday: 8 AM – 5 PM",
         note: "Walk-in and online",
-        contact: "arc.kcc@kbcc.cuny.edu"
+        contact: "<a href='mailto: arc.kcc@kbcc.cuny.edu'>arc.kcc@kbcc.cuny.edu</a>"
     },
     {
         name: "Medgar Evers College",
@@ -168,6 +168,19 @@ const foodPantryLocations = [
     contact: "<a href='mailto: studentlife@csi.cuny.edu'>studentlife@csi.cuny.edu</a>"
     }
 ];
+
+const healthCenterLocations = [
+    {
+        name: "Bronx Community College",
+        coordinates: [-73.911073, 40.855522],
+        resourceType: "Food Pantry",
+        address: "Access Resource Center office <br> Loew Hall 125",
+        hours: "Biweekly Wednesday: 10 AM – 4:30 PM and Thursday: 11 AM – 6:30 PM<br>Daily emergency pantry: 9 AM – 5 PM<br>Daily Healthy Food Cart access 9 AM – 5 PM",
+        note: "Students utilize the Plentiful App to make appointments for the bi-weekly pantry and can walk in daily for the Healthy Food Cart and emergency pantry needs.",
+        contact: "dawn.daniels@bcc.cuny.edu <br> Raine.diaz@bcc.cuny.edu"
+    }
+]
+
 
 // Add markers and popups to the map
 foodPantryLocations.forEach(location => {
