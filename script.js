@@ -323,6 +323,145 @@ const healthCenterLocations = [
     }
 ]
 
+const childCareCenterLocations = [
+    {
+        name: "<a href='https://studentaffairs.baruch.cuny.edu/early-learning-center/'> Baruch College</a>",
+        coordinates: [40.74098115055397, -73.98357224498129],
+        resourceType: "Child Care Center",
+        address: "1 Bernard Baruch Way, New York, NY 10010",
+        email: "<a href='mailto: EarlyLearningCenter@baruch.cuny.edu'>EarlyLearningCenter@baruch.cuny.edu</a>",
+        phone: "212-387-1420 or 212-387-1421 "
+    },
+    {
+        name: "<a href='https://www.bmcc.cuny.edu/student-affairs/ecc/'>Borough of Manhattan Community College</a>",
+        coordinates: [40.71889027966533, -74.0117518174422],
+        resourceType: "Child Care Center",
+        address: "Room N375, 199 Chambers Street, New York, NY 10007",
+        email: "<a href='mailto: CScottCroff@bmcc.cuny.edu'>CScottCroff@bmcc.cuny.edu</a>",
+        phone: "212-220-8250 or 212-220-8251"
+    },
+    {
+        name: "<a href='https://www.bcc.cuny.edu/campus-resources/early-childhood-center/'>Bronx Community College</a>",
+        coordinates: [40.85751542400496, -73.91292915243827],
+        resourceType: "Child Care Center",
+        address: "2155 University Avenue Bronx, NY 10453",
+        email: "<a href='mailto: Jessica.manboadh@bcc.cuny.edu'>Jessica.manboadh@bcc.cuny.edu</a>",
+        phone: "718-289-5461"
+    },
+    {
+        name: "<a href='https://www.brooklyn.edu/dosa/student-support-services/ecc/'>Brooklyn College</a>",
+        coordinates: [40.63178531672928, -73.9528433876472],
+        resourceType: "Child Care Center",
+        address: "1604 James Hall, Bedford Avenue & Avenue H, Brooklyn, NY 11210",
+        email: "<a href='mailto: latchman@brooklyn.cuny.edu'>latchman@brooklyn.cuny.edu</a>",
+        phone: "718-951-5431"
+    },
+    {
+        name: "<a href='https://www.csi.cuny.edu/campus-life/student-services/childrens-center'>College of Staten Island</a>",
+        coordinates: [40.60090048768787, -74.15171688627925],
+        resourceType: "Child Care Center",
+        address: "2R-104, 2800 Victory Boulevard, Staten Island, NY 10314",
+        email: "<a href='mailto: margaret.rooney@csi.cuny.edu'>margaret.rooney@csi.cuny.edu</a>",
+        phone: "718-982-3190"
+    },
+    {
+        name: "<a href='https://www.gc.cuny.edu/child-development-and-learning-center'>CUNY Graduate Center</a>",
+        coordinates: [40.74881301157579, -73.98410388036424],
+        resourceType: "Child Care Center",
+        address: "Suite 3201, 365 Fifth Avenue, New York, NY 10016",
+        email: "<a href='mailto: cdlc@gc.cuny.edu'>cdlc@gc.cuny.edu</a>",
+        phone: "212-817-7033"
+    },
+    {
+        name: "<a href='https://www.hostos.cuny.edu/Administrative-Offices/SDEM/Children-s-Center'>Hostos Community College</a>",
+        coordinates: [40.81835689191872, -73.92766600320839],
+        resourceType: "Child Care Center",
+        address: "475 Grand Concourse, Bronx, NY 10451",
+        email: "<a href='mailto: childrenscenter@hostos.cuny.edu'>childrenscenter@hostos.cuny.edu </a>",
+        phone: "718-518-4176"
+    },
+    {
+        name: "<a href='https://www.hunter.cuny.edu/studentservices/clc'>Hunter College</a>",
+        coordinates: [40.76889874955809, -73.96502545097967],
+        resourceType: "Child Care Center",
+        address: "Room 207N, 695 Park Avenue, New York, NY 10065",
+        email: "<a href='mailto: clc@hunter.cuny.edu'>clc@hunter.cuny.edu </a>",
+        phone: "212-772-4066"
+    },
+    {
+        name: "<a href='https://www.jjay.cuny.edu/student-life/welcome-john-jay-childrens-center'>John Jay College of Criminal Justice</a>",
+        coordinates: [40.770900501850285, -73.98973558077512],
+        resourceType: "Child Care Center",
+        address: "860 11th Avenue, New York, NY 10019",
+        email: "<a href='mailto: ChildrensCenter@jjay.cuny.edu'>ChildrensCenter@jjay.cuny.edu </a>",
+        phone: "212-393-6438"
+    },
+    {
+        name: "<a href='https://www.kbcc.cuny.edu/childcenter/'>Kingsborough Community College</a>",
+        coordinates: [40.580597389255786, -73.93366595176497],
+        resourceType: "Child Care Center",
+        address: "Room V105, 2001 Oriental Blvd. Brooklyn, NY 11235",
+        email: "<a href='mailto: latasha.collins@kbcc.cuny.edu'>latasha.collins@kbcc.cuny.edu </a>",
+        phone: "718-368-5439"
+    },
+    {
+        name: "<a href='https://www.laguardia.edu/eclc/'>LaGuardia Community College</a>",
+        coordinates: [40.74497998277946, -73.93684788394229],
+        resourceType: "Child Care Center",
+        address: "Room MB09, 31-10 Thomson Avenue, Long Island City, NY 11101",
+        email: "<a href='mailto: childcare@lagcc.cuny.edu'>childcare@lagcc.cuny.edu </a>",
+        phone: "718-482-5295"
+    },
+    {
+        name: "<a href='https://www.lehman.edu/child-care-center/'>Lehman College</a>",
+        coordinates: [40.872655213213456, -73.8957626876063],
+        resourceType: "Child Care Center",
+        address: "2870 Goulden Avenue, Bronx, NY 10468",
+        email: "",
+        phone: "718-960-7436"
+    },
+    {
+        name: "<a href='https://www.mec.cuny.edu/student-affairs/early-childhood-center/'>Medgar Evers College</a>",
+        coordinates: [40.666837401794794, -73.95223207974122],
+        resourceType: "Child Care Center",
+        address: "Room C103, 1150 Carroll Street, Brooklyn, NY 11225",
+        email: "",
+        phone: "718-270-6018"
+    },
+    {
+        name: "<a href='https://www.citytech.cuny.edu/occ/'>New York City College of Technology</a>",
+        coordinates: [40.69549308562112, -73.9876258183888],
+        resourceType: "Child Care Center",
+        address: "Room G-309 and Room NG14, 300 Jay Street, Brooklyn, NY 11201",
+        email: "<a href='mailto: childcarectr@citytech.cuny.edu'>childcarectr@citytech.cuny.edu </a>",
+        phone: "718-260-5192"
+    },
+    {
+        name: "<a href='https://www.ccny.cuny.edu/cdc'>The City College of New York</a>",
+        coordinates: [40.817234485413614, -73.95200431812987],
+        resourceType: "Child Care Center",
+        address: "Schiff House, 119 Convent Avenue, New York, NY 10031",
+        email: "<a href='mailto: CHuston@ccny.cuny.edu'>CHuston@ccny.cuny.edu </a>",
+        phone: "212-650-7679"
+    },
+    {
+        name: "<a href='https://www.qc.cuny.edu/sl/child-development/'>Queens College</a>",
+        coordinates: [40.73816300423891, -73.82050097385967],
+        resourceType: "Child Care Center",
+        address: "Room 245, Kiely Hall, 65-30 Kissena Blvd, Flushing, NY 11367",
+        email: "",
+        phone: "718-997-5885"
+    },
+    {
+        name: "<a href='https://www.york.cuny.edu/child-family-center'>York College</a>",
+        coordinates: [40.70199750988184, -73.79798760465582],
+        resourceType: "Child Care Center",
+        address: "94-12 160th street, Jamaica, New York 11451",
+        email: "<a href='mailto: yccfc@york.cuny.edu'>yccfc@york.cuny.edu </a>",
+        phone: "718-262-2930"
+    }
+]
+
 // Add markers and popups to the map
 const foodPantryMarkers = foodPantryLocations.map(location => {
     return new mapboxgl.Marker()
@@ -352,10 +491,24 @@ const healthCenterMarkers = healthCenterLocations.map(location => {
         .addTo(map);
 });
 
+const childCareCenterMarkers = childCareCenterLocations.map(location => {
+    return new mapboxgl.Marker()
+        .setLngLat(location.coordinates)
+        .setPopup(new mapboxgl.Popup().setHTML(`
+            <h3>${location.name}</h3>
+            <h4>${location.resourceType}</h4>
+            <p>${location.address}</p>
+            <p>Email: ${location.email}</p>
+            <p>Phone: ${location.phone}</p>
+        `))
+        .addTo(map);
+});
+
 // Function to toggle markers based on checkbox state
 function toggleMarkers() {
     const showFoodPantries = document.getElementById('foodPantryFilter').checked;
     const showHealthCenters = document.getElementById('healthCenterFilter').checked;
+    const showChildCareCenters = document.getElementById('childCareCenterFilter').checked;
 
     foodPantryMarkers.forEach(marker => {
         marker.getElement().style.display = showFoodPantries ? 'block' : 'none';
@@ -364,11 +517,16 @@ function toggleMarkers() {
     healthCenterMarkers.forEach(marker => {
         marker.getElement().style.display = showHealthCenters ? 'block' : 'none';
     });
+
+    childCareCenterMarkers.forEach(marker => {
+        marker.getElement().style.display = showChildCareCenters ? 'block' : 'none';
+    });
 }
 
 // Add event listeners to filters
 document.getElementById('foodPantryFilter').addEventListener('change', toggleMarkers);
 document.getElementById('healthCenterFilter').addEventListener('change', toggleMarkers);
+document.getElementById('childCareCenterFilter').addEventListener('change', toggleMarkers);
 
 // Initialize markers display
 toggleMarkers();
