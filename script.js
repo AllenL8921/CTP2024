@@ -8,8 +8,53 @@ const map = new mapboxgl.Map({
     zoom: 10 // Initial zoom level
 });
 
+map.on('style.load', () => {
+    map.setFog({
+      color: 'rgb(220, 240, 255)', // Lower atmosphere (light blue)
+      'high-color': 'rgb(135, 206, 235)', // Upper atmosphere (sky blue)
+      'horizon-blend': 0.5, // Slightly increased atmosphere thickness
+      'space-color': 'rgb(200, 230, 255)', // Background color (light blue)
+      'star-intensity': 0 // No stars visible during the day
+    });
+    
+    /*
+    map.setLayoutProperty('poi-label', 'visibility', 'none'); // Hides the POI labels.
+    map.setLayoutProperty('poi', 'visibility', 'none'); // Hides the POI icons.
+    map.setLayoutProperty('road-label', 'visibility', 'none'); // Hides road labels.
+    map.setLayoutProperty('road-number-shield', 'visibility', 'none'); // Hides road numbers.
+    map.setLayoutProperty('road-exit-shield', 'visibility', 'none'); // Hides public transit lines.
+    map.setLayoutProperty('transit-label', 'visibility', 'none'); // Hides transit labels
+    map.setLayoutProperty('transit', 'visibility', 'none'); // Hides transit lines
+
+    // Add a layer that shows the buildings in 3D.
+    map.addLayer({
+        'id': '3d-buildings',
+        'source': 'composite',
+        'source-layer': 'building',
+        'filter': ['==', 'extrude', 'true'],
+        'type': 'fill-extrusion',
+        'minzoom': 15,
+        'paint': {
+            'fill-extrusion-color': '#aaa',
+            'fill-extrusion-height': [
+                'interpolate', ['linear'], ['zoom'],
+                15, 0,
+                15.05, ['get', 'height']
+            ],
+            'fill-extrusion-base': [
+                'interpolate', ['linear'], ['zoom'],
+                15, 0,
+                15.05, ['get', 'min_height']
+            ],
+            'fill-extrusion-opacity': 0.4
+        }
+    });
+    */
+  })
+
 // Features for the map
 map.addControl(new mapboxgl.NavigationControl());
+
 
 // Locations data
 // locations will either be hardcoded into script or into geoJson format
