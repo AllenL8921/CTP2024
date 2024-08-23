@@ -53,6 +53,7 @@ p{
 .filters {
   position: absolute;
   top: 60px; /* Adjust according to your navbar height */
+  z-index: 1;
   left: 10px;
   background-color: white;
   padding: 10px;
