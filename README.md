@@ -1,3 +1,5 @@
+# [Website Link](https://ctp-cuny-resource-map.web.app/)
+
 ## Inspiration
 The inspiration for the CUNY Resource Map stems from the pressing need to ensure that every CUNY student has easy access to essential resources that support their well-being and academic success. While CUNY offers a wide range of support services, many students are unaware of how to find and utilize them. Our team wanted to bridge this gap by creating an interactive tool that would make it simple for students to locate and access vital resources, ultimately helping them overcome challenges like food insecurity, mental health issues, and housing instability.
 ## What it does
